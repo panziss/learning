@@ -1,0 +1,18 @@
+git clone ssh://nathan@topsky.i234.me:2345/home/caishi-frontend.git
+
+
+git checkout -b feature/home	新建一个本地分支
+git add .
+git commit -m “feat: modify game slider 之类的”
+git push origin feature/home	把新建的本地分支push到远程服务器
+
+git branch 看是哪個分支
+
+
+
+删除指定文件，但同时会把本地文件 也删除
+
+gir rm -rf 文件名
+git add -A
+git commit -m"dfsaf"
+git push 

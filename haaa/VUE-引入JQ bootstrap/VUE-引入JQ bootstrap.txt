@@ -1,0 +1,26 @@
+﻿http://blog.csdn.net/wild46cat/article/details/77662555
+
+2、使用命令npm install jquery --save-dev 引入jquery。
+
+3、在webpack.base.conf.js中添加如下内容：
+ var webpack = require('webpack')
+和增加一个plugins
+plugins: [
+  new webpack.ProvidePlugin({
+    $: "jquery",
+    jQuery: "jquery"
+  })
+],
+
+4、在main.js中添加内容
+ import $ from 'jquery'
+添加完成后，可以在home.vue中尝试jquery是否好用。（如图）
+
+5、这样，使用npm run dev后，能够在界面上看到，弹出alert，就证明jquery引入成功了。
+
+6、安装bootstrap，使用命令npm install bootstrap --save-dev
+
+7、安装成功后，能够在package.json文件夹中看到bootstrap这个模块。这时候需要在main.js中添加如下内容：
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min'
+添加完成后，重新启动程序，npm run dev。就能看到界面中的按钮已经是bootstrap的按钮组了。

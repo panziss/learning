@@ -1,0 +1,14 @@
+npm install sass-loader node-sass vue-style-loader --D
+npm install -g node-sass
+
+
+webpack.base.config.js
+
+{
+   test: /\.scss$/,
+   loaders: ["style", "css", "sass"]
+}
+
+<style lang="scss">
+
+

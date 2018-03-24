@@ -1,0 +1,70 @@
+这是 后端API文档
+http://alpha-api.test.bestsnake.com/documentation
+
+http://beta.cttbeta.com
+hxgzs003 a123456
+
+
+
+frank03 1234
+
+账号test1 密码1234
+test1 - test10 都可以用 ，密码一样。，10个账号
+
+点到 文档 - 前端框架 - 输入密码 a123newtopsky321
+
+然后 你先看下 编码规范
+我再补全更多的文档
+
+和 一个vue 范例程序
+npm run static:json --fix_version=fix
+npm run dev --fix_version=fix
+
+
+
+服务密码
+hYPw6^hjGn@u98qmy
+
+git clone ssh://nathan@topsky.i234.me:2345/home/caishi-frontend.git
+
+
+git checkout -b feature/home	新建一个本地分支
+git add .
+git commit -m “feat: modify game slider 之类的”
+git push origin feature/home	把新建的本地分支push到远程服务器
+
+git branch 看是哪個分支
+
+
+git push origin feature/item
+git checkout develop
+git merge feature/item   合并
+git push origin develop
+
+git fetch
+git stash
+git pull origin develop
+git stash apply
+git add .
+git commit -m
+git push
+
+
+
+git log
+git revert commitID
+
+
+
+線路檢測
+充值提現
+xxxxxx優惠活動
+xxxxxxxxxx會員中心
+
+
+
+git：
+先pull   
+手动处理conflict
+再commit
+再push
