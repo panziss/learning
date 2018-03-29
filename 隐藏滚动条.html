@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="{CHARSET}">
+<title>隐藏滚动条</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.outer-container, .content {
+		width: 1000px;
+		height: 500px;
+	}
+	.outer-container {
+		position: relative;
+		overflow: hidden;
+		border: solid 1px green;
+	}
+	.inner-container {
+		position: absolute;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	/* for Chrome */
+	
+	.inner-container::-webkit-scrollbar {
+		display: none;
+	}
+	p {
+		height: 120px;
+		background: #456789;
+	}
+</style>
+</head>
+
+<body>
+<div class="outer-container">
+	<div class="inner-container">
+		<div class="content">
+			<p style="background: yellow;">aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+		</div>
+	</div>
+</div>
+<div class="outer-container">
+	<div class="inner-container">
+		<div class="content">
+			<p style="background: red;">111111</p>
+			<p>111111</p>
+			<p>111111</p>
+			<p>111111</p>
+			<p>111111</p>
+			<p>111111</p>
+			<p>111111</p>
+			<p>111111</p>
+		</div>
+	</div>
+</div>
+<div class="outer-container">
+	<div class="inner-container">
+		<div class="content">
+			<p style="background: palevioletred;">aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+			<p>aaaaa</p>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
